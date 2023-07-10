@@ -18,6 +18,13 @@
   font-size: 1.2em;
 }
 
+form p {
+  font-size: 0.75em;
+  position: absolute;
+  margin: 46px 0;
+  color: red;
+}
+
 a {
   text-decoration: none;
   color: rgb(15, 67, 179);
@@ -133,6 +140,10 @@ input:focus {
   outline: none;
   border: 1px solid rgb(27, 99, 253);
   box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  border: 1px solid red;
 }
 
 button[type="submit"] {
